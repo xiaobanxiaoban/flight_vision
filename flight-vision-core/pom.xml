@@ -11,5 +11,14 @@
 
 	<artifactId>flight-vision-core</artifactId>
 
-
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ma.glasnost.orika</groupId>
+			<artifactId>orika-core</artifactId>
+		</dependency>
+	</dependencies>
 </project>
